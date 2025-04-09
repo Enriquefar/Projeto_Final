@@ -6,4 +6,4 @@ num = sorted(nums)
 max_num1 = num[+1]
 max_num2 = num[-1]
 soma = max_num1 + max_num2
-print(f'{max_num1} + {max_num2} = {soma}')
+print(f'A soma dos dois maiores números será {max_num1} + {max_num2} = {soma}!')
