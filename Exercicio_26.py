@@ -1,0 +1,9 @@
+num1 = float(input('Digite um número: '))
+num2 = float(input('Digite o segundo número: '))
+num3 = float(input('Digite o seu terceiro número: '))
+nums = [num1, num2, num3]
+num = sorted(nums)
+max_num1 = num[+1]
+max_num2 = num[-1]
+soma = max_num1 + max_num2
+print(f'{max_num1} + {max_num2} = {soma}')
